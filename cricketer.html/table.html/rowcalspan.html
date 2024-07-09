@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- style kiye h table ka head table ka data sb ka jo line h uska clr k liye -->
+    <style>table,th,td {border: 1px solid green;}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- table k border k lpura image ko beech m kiye width hight set kiye h aur table ka pura background clr chng huaiye 1 liye, align means  -->
+    <table border="1" align="center" width="500px" height="400px" bgcolor="yellow">
+        <!-- caption table ka heading k liye -->
+        <caption>Student Record</caption>
+        <!-- tr ka background clr chng kiye h taaki ek sath ek row ka clr chng ho jaye -->
+        <tr bgcolor="black">
+            <!-- th mai style liye hai text k color ko chng krne k liye -->
+            <th style="color: white;">student Name</th>
+            <th style="color: white;">Student reg.No</th>
+            <th style="color: white;">subject Name</th>
+            <th style="color: white;" >Obtained Marks</th>
+            <th style="color: white;" >Total Marks</th>
+            <th style="color: white;">Average Marks</th>
+        </tr>
+
+         <tr>
+             <!-- rowspan use kiye hai kuki aman
+            common tha 3 row mai toh pehla aman m row span lagaye aur banki aman ko delete kiye kuki aman ka n -->
+            <td rowspan="3">Aman</td>
+            <td rowspan="3">Std-01</td>
+            <td bgcolor="red">Maths</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+        
+        
+        <tr>
+        
+            <!-- bg color use kiye hai specefic box ko color krne k liye -->
+            <td bgcolor="blue">Physics</td>
+            <td>50.00</td>
+            
+        </tr>
+
+        
+        <tr>
+        
+        
+            <td bgcolor="green">Chemistry</td>
+            <td>50.00</td>
+        
+        </tr>
+
+        
+        <tr>
+            <td rowspan="3">Sumit</td>
+            <td rowspan="3">Std-01</td>
+            <td bgcolor="red">Maths</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+
+        
+        <tr>
+            
+            <td bgcolor="blue">Physics</td>
+            <td>50.00</td>
+
+        </tr>
+
+        
+        <tr>
+        
+        
+            <td bgcolor="green">Chemistry</td>
+            <td>50.00</td>
+        </tr>
+
+        
+        <tr>
+            <td rowspan="3">John</td>
+            <td rowspan="3">Std-01</td>
+            <td bgcolor="red">Maths</td>
+            <td>50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+
+        
+        <tr>
+        
+        
+            <td bgcolor="blue">Physics</td>
+            <td>50.00</td>
+        
+            
+        </tr>
+
+        
+        <tr>
+        
+        
+            <td bgcolor="green">Chemistry</td>
+            <td style="font-size: large;">50.00</td>
+            
+            
+        </tr>
+    </table>
+</body>
+</html>
